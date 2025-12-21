@@ -31,9 +31,9 @@ const ContactSection = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "dhvanit@example.com", href: "mailto:dhvanit@example.com" },
+    { icon: Mail, label: "Email", value: "dhwanitchudasama190425@gmail.com", href: "mailto:dhwanitchudasama190425@gmail.com" },
     { icon: Github, label: "GitHub", value: "dhwanit3747", href: "https://github.com/dhwanit3747" },
-    { icon: Linkedin, label: "LinkedIn", value: "Connect with me", href: "https://linkedin.com" },
+    { icon: Linkedin, label: "LinkedIn", value: "Connect with me", href: "https://www.linkedin.com/in/dhwanit-chudasama-239138343/" },
     { icon: MapPin, label: "Location", value: "Gujarat, India", href: null },
   ];
 
