@@ -28,7 +28,7 @@ const Footer = () => {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/dhwanit-chudasama-239138343/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-background/10 hover:bg-background/20 transition-colors text-secondary-foreground"
@@ -36,7 +36,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:dhvanit@example.com"
+              href="mailto:dhwanitchudasama190425@gmail.com"
               className="p-3 rounded-full bg-background/10 hover:bg-background/20 transition-colors text-secondary-foreground"
             >
               <Mail className="w-5 h-5" />

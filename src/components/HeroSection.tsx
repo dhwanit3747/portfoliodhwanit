@@ -54,7 +54,7 @@ const HeroSection = () => {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/dhwanit-chudasama-239138343/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card border border-border hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 hover:-translate-y-1"
@@ -62,7 +62,7 @@ const HeroSection = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:contact@example.com"
+              href="mailto:dhwanitchudasama190425@gmail.com"
               className="p-3 rounded-full bg-card border border-border hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 hover:-translate-y-1"
             >
               <Mail className="w-5 h-5" />
