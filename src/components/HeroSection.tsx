@@ -20,7 +20,7 @@ const HeroSection = () => {
           {/* Main heading */}
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 animate-fade-in-up animation-delay-100">
             Hi, I'm{" "}
-            <span className="gradient-text">Dhvanit Chudasama</span>
+            <span className="gradient-text">Dhwanit Chudasama</span>
           </h1>
           
           {/* Subtitle */}

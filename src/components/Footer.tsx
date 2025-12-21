@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo and copyright */}
           <div className="text-center md:text-left">
             <a href="#home" className="font-display text-2xl font-bold text-secondary-foreground">
-              <span className="gradient-text">Dhvanit Chudasama</span>
+              <span className="gradient-text">Dhwanit Chudasama</span>
             </a>
           </div>
           
