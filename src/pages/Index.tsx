@@ -12,13 +12,13 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Dhvanit Chudasama | Software Developer & AI/ML Enthusiast</title>
+        <title>Dhwanit Chudasama | Software Developer & AI/ML Enthusiast</title>
         <meta 
           name="description" 
-          content="Portfolio of Dhvanit Chudasama - ICT student at Adani University specializing in Python, Django, and AI/ML. Building intelligent software solutions." 
+          content="Portfolio of Dhwanit Chudasama - ICT student at Adani University specializing in Python, Django, and AI/ML. Building intelligent software solutions." 
         />
-        <meta name="keywords" content="Dhvanit Chudasama, Software Developer, AI/ML, Python, Django, Portfolio, Adani University" />
-        <link rel="canonical" href="https://dhvanit-portfolio.com" />
+        <meta name="keywords" content="Dhwanit Chudasama, Software Developer, AI/ML, Python, Django, Portfolio, Adani University" />
+        <link rel="canonical" href="https://dhwanit-portfolio.com" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
