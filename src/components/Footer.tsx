@@ -12,9 +12,6 @@ const Footer = () => {
             <a href="#home" className="font-display text-2xl font-bold text-secondary-foreground">
               <span className="gradient-text">Dhvanit Chudasama</span>
             </a>
-            <p className="text-sm text-muted-foreground mt-2 flex items-center justify-center md:justify-start gap-1">
-              Made with <Heart className="w-4 h-4 text-destructive fill-destructive" /> © {currentYear}
-            </p>
           </div>
           
           {/* Social links */}
