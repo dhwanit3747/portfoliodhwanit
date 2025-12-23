@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const navLinks = [
   { href: "#home", label: "Home" },
@@ -52,20 +53,24 @@ const Navbar = () => {
             ))}
           </div>
           
-          {/* Desktop CTA */}
-          <div className="hidden lg:block">
+          {/* Desktop CTA & Theme Toggle */}
+          <div className="hidden lg:flex items-center gap-3">
+            <ThemeToggle />
             <Button variant="hero" size="default" asChild>
               <a href="#contact">Get in Touch</a>
             </Button>
           </div>
           
-          {/* Mobile menu button */}
-          <button
-            className="lg:hidden p-2 text-foreground"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* Mobile theme toggle & menu button */}
+          <div className="lg:hidden flex items-center gap-2">
+            <ThemeToggle />
+            <button
+              className="p-2 text-foreground"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
         
         {/* Mobile menu */}
