@@ -62,7 +62,6 @@ const ContactSection = () => {
                     </label>
                     <Input
                       id="name"
-                      placeholder="Your name"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       required
@@ -76,7 +75,6 @@ const ContactSection = () => {
                     <Input
                       id="email"
                       type="email"
-                      placeholder="your.email@example.com"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       required
@@ -91,7 +89,6 @@ const ContactSection = () => {
                   </label>
                   <Textarea
                     id="message"
-                    placeholder="Tell me about your project or opportunity..."
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     required
