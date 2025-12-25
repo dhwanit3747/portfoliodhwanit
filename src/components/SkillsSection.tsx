@@ -81,15 +81,15 @@ const SkillsSection = () => {
           </div>
           
           {/* Concepts */}
-          <div className="glass-card rounded-2xl p-8 hover-lift md:col-span-2 lg:col-span-1">
+          <div className="glass-card rounded-2xl p-6 sm:p-8 hover-lift md:col-span-2 lg:col-span-1">
             <h3 className="font-display text-xl font-semibold mb-6 text-foreground">Core Concepts</h3>
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {skills.concepts.map((concept) => (
                 <div 
                   key={concept}
                   className="flex items-center gap-3 p-3 rounded-lg bg-background/50 border border-border/50"
                 >
-                  <span className="w-2 h-2 bg-primary rounded-full" />
+                  <span className="w-2 h-2 bg-primary rounded-full flex-shrink-0" />
                   <span className="text-sm text-foreground">{concept}</span>
                 </div>
               ))}
