@@ -26,7 +26,7 @@ const EducationSection = () => {
       <div className="section-container relative z-10">
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Education */}
-          <div>
+          <div className="text-center lg:text-left">
             <span className="text-primary font-medium text-sm uppercase tracking-widest">Education</span>
             <h2 className="font-display text-3xl sm:text-4xl font-bold mt-2 mb-8">
               Academic <span className="gradient-text">Background</span>
@@ -62,7 +62,7 @@ const EducationSection = () => {
           </div>
           
           {/* Achievements */}
-          <div>
+          <div className="text-center lg:text-left">
             <span className="text-primary font-medium text-sm uppercase tracking-widest">Achievements</span>
             <h2 className="font-display text-3xl sm:text-4xl font-bold mt-2 mb-8">
               Activities & <span className="gradient-text">Highlights</span>

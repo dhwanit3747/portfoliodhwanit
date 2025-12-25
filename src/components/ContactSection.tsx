@@ -52,7 +52,7 @@ const ContactSection = () => {
         
         <div className="grid lg:grid-cols-5 gap-12">
           {/* Contact form */}
-          <div className="lg:col-span-3">
+          <div className="lg:col-span-3 text-center lg:text-left">
             <form onSubmit={handleSubmit} className="glass-card rounded-2xl p-8">
               <div className="space-y-6">
                 <div className="grid sm:grid-cols-2 gap-6">

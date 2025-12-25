@@ -13,7 +13,7 @@ const AboutSection = () => {
       <div className="section-container">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left content */}
-          <div className="animate-slide-in-left">
+          <div className="animate-slide-in-left text-center lg:text-left">
             <span className="text-primary font-medium text-sm uppercase tracking-widest">About Me</span>
             <h2 className="font-display text-3xl sm:text-4xl font-bold mt-2 mb-6">
               Turning Ideas into{" "}
