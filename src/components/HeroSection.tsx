@@ -44,7 +44,7 @@ const HeroSection = () => {
           </div>
           
           {/* Social links */}
-          <div className="flex items-center justify-center gap-4 animate-fade-in-up animation-delay-500">
+          <div className="flex items-center justify-center gap-4 mb-12 animate-fade-in-up animation-delay-500">
             <a 
               href="https://github.com/dhwanit3747" 
               target="_blank" 
@@ -68,14 +68,14 @@ const HeroSection = () => {
               <Mail className="w-5 h-5" />
             </a>
           </div>
-        </div>
-        
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <a href="#about" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
-            <span className="text-xs uppercase tracking-widest">Scroll</span>
-            <ArrowDown className="w-4 h-4" />
-          </a>
+          
+          {/* Scroll indicator */}
+          <div className="animate-bounce animate-fade-in-up animation-delay-600">
+            <a href="#about" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+              <span className="text-xs uppercase tracking-widest">Scroll</span>
+              <ArrowDown className="w-4 h-4" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
